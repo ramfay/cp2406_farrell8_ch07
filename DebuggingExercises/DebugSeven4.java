@@ -11,9 +11,9 @@ public class DebugSeven4
       System.out.println("In all lowercase, the sentence is: ");
       for(int i = 0; i < length; i++)
       {
-         char ch = Character.toLowerCase(aString.charAt(length));
+         char ch = Character.toLowerCase(aString.charAt(i));
          System.out.print(ch);
-         if(Character.isLetter())
+         if(Character.isLetter(ch))
             numLetters++;
       }
       System.out.println();
